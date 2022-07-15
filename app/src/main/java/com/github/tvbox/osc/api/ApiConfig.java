@@ -79,7 +79,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "http//:yxflq.com/hy.txt");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://yxflq.com/hy.txt");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
